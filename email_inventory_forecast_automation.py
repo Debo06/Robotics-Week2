@@ -2,7 +2,7 @@
 import os
 import pandas as pd
 from datetime import datetime, timedelta
-from win32com.client import Dispatch
+from win32com.client import Dispatch #Installed using pip
 
 def download_attachment_from_outlook(subject_keyword, download_folder):
     outlook = Dispatch("Outlook.Application").GetNamespace("MAPI")
