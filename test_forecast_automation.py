@@ -2,7 +2,7 @@
 import unittest
 import pandas as pd
 from datetime import datetime, timedelta
-from email_inventory_forecast_automation import generate_forecast
+from email_inventory_forecast_automation import generate_forecast #source file
 
 class TestForecastAutomation(unittest.TestCase):
 
